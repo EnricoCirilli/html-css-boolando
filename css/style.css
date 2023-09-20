@@ -8,62 +8,49 @@
 
 /* container of all cards */
 .row{
-    background-color: white;
-    border: 10px solid black;
+    border: 3px dashed black;
     min-height: 1000px;
-    width: 80%;
+    width: 70%;
     margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
-    padding: 10px;
 }
 /* sett up general of all columns */
 .col{
     /* debug */
-    border: 5px white solid;
-    border-bottom: 40px white solid ;
-    background-color: white;
+    background-color: aqua;
+    border: 1px red solid;
     width: calc(100% / 3);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
+    padding: 10px;
+    position: relative;
 }
-/* setting up all img */
-.card-1{
-    background-image: url(../img/1.webp);
+/* stting max-width and height img */
+img{
+    max-width: 100%;
+    height: auto;
 }
-.card-2{
-    background-image: url(../img/2.webp);
-}
-.card-3{
-    background-image: url(../img/3.webp);
-}
-.card-4{
-    background-image: url(../img/4.webp);
-}
-.card-5{
-    background-image: url(../img/5.webp);
-}
-.card-6{
-    background-image: url(../img/6.webp);
-}
-/* setting up :hover others img */
 
-.card-1:hover {
-    background-image: url(../img/1b.webp);
+.card-1-hover{
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: none;
+    padding: 10px;
 }
-.card-2:hover {
-    background-image: url(../img/2b.webp);
+.card-1:hover+.card-1-hover{
+    display: block;
 }
-.card-3:hover {
-    background-image: url(../img/3b.webp);
+.heart{
+    width: 10%;
+    height: 20px;
+    background-color: white;
+    position: relative;
+    bottom: 80%;
+    left: 90% 
 }
-.card-4:hover {
-    background-image: url(../img/4b.webp);
+.heart:hover{
+    color: red;
 }
-.card-5:hover {
-    background-image: url(../img/5b.webp);
-}
-.card-6:hover {
-    background-image: url(../img/6b.webp);
+span{
+    padding-left: 8px;
 }
