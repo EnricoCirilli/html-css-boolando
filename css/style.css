@@ -21,11 +21,45 @@
     border: 2px red solid;
     width: calc(100% / 3);
     height: 900px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
     
 }
 .card-1{
     background-image: url(../img/1.webp);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
+}
+.card-2{
+    background-image: url(../img/2.webp);
+}
+.card-3{
+    background-image: url(../img/3.webp);
+}
+.card-4{
+    background-image: url(../img/4.webp);
+}
+.card-5{
+    background-image: url(../img/5.webp);
+}
+.card-6{
+    background-image: url(../img/6.webp);
+}
+
+.card-1:hover {
+    background-image: url(../img/1b.webp);
+}
+.card-2:hover {
+    background-image: url(../img/2b.webp);
+}
+.card-3:hover {
+    background-image: url(../img/3b.webp);
+}
+.card-4:hover {
+    background-image: url(../img/4b.webp);
+}
+.card-5:hover {
+    background-image: url(../img/5b.webp);
+}
+.card-6:hover {
+    background-image: url(../img/6b.webp);
 }
