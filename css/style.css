@@ -8,7 +8,6 @@
 
 /* container of all cards */
 .row{
-    border: 3px dashed black;
     min-height: 1000px;
     width: 70%;
     margin: 0 auto;
@@ -17,9 +16,6 @@
 }
 /* sett up general of all columns */
 .col{
-    /* debug */
-    background-color: aqua;
-    border: 1px red solid;
     width: calc(100% / 3);
     padding: 10px;
     position: relative;
@@ -47,11 +43,78 @@ img{
     background-color: white;
     position: relative;
     bottom: 70%;
-    left: 90% 
+    left: 90%;
 }
 .heart:hover{
     color: red;
 }
 span{
     padding-left: 8px;
+}
+.sconto-50{
+    font-size: 1rem;
+    width: 15%;
+    height: 4%;
+    background-color: red;
+    color: white;
+    position: relative;
+    bottom: 20%; 
+}
+.sconto-30{
+    font-size: 1rem;
+    width: 15%;
+    height: 4%;
+    background-color: red;
+    color: white;
+    position: relative;
+    bottom: 20%; 
+}
+.sost{
+    font-size: 1rem;
+    text-align: center;
+    width: 35%;
+    height: 4%;
+    background-color: green;
+    color: white;
+    position: relative;
+    bottom: 24%; 
+    left:17%;
+}
+.brand{
+    font-size: 0.8rem;
+    color: grey;
+    position: relative;
+    bottom: 10%; 
+    left:1%;
+}
+.brand-1{
+    font-size: 0.8rem;
+    color: grey;
+    position: relative;
+    bottom: 6%; 
+    left:1%;
+}
+.description{
+    position: relative;
+    bottom: 10%; 
+    left:1%;
+}
+.description-1{
+    position: relative;
+    bottom: 6%; 
+    left:1%;
+}
+.costo{
+    position: relative;
+    bottom: 6%; 
+    left:-2%;
+    color: red;
+    font-size: 0.8rem;
+}
+.costo-1{
+    position: relative;
+    bottom: 6%; 
+    font-size: 0.8rem;
+    left:-3%;
+    text-decoration:line-through;
 }
