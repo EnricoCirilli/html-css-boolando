@@ -184,7 +184,6 @@ span {
 /* footer */
 .footer{
    width: 100%;
-   border: 3px solid red;
    background-color: black;
    color: white;
    display: flex;
