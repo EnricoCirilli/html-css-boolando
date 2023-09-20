@@ -6,70 +6,104 @@
     box-sizing: border-box;
 }
 
+/* nav bar */
+.nav-bar {
+    background-color: orange;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    
+}
+ul li{
+    display: inline-block;
+    
+}
+.boolean-logo{
+    width: 13%;
+    text-align: center;
+}
+
 /* container of all cards */
-.row{
+.row {
     min-height: 1000px;
     width: 70%;
     margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
 }
+
 /* sett up general of all columns */
-.col{
+.col {
     width: calc(100% / 3);
     padding: 10px;
     position: relative;
 }
+
 /* stting max-width and height img */
-img{
+img {
     max-width: 100%;
     height: auto;
 }
+
 /* setting img hover */
-.card-1-hover{
+.card-1-hover {
     position: absolute;
     left: 0;
     top: 0;
     display: none;
     padding: 10px;
 }
-.card-1:hover+.card-1-hover{
+
+.card-1:hover+.card-1-hover {
     display: block;
 }
+
 /* setting up heart entities */
-.heart{
-    width: 10%;
-    height: 20px;
+.heart {
+    width: 15%;
+    height: 28px;
     background-color: white;
     position: relative;
-    bottom: 76%;
+    bottom: 78%;
     left: 90%;
+
 }
-.heart:hover{
+
+.heart:hover {
     color: red;
 }
-span{
-    padding-left: 8px;
+
+span {
+    padding-left: 5px;
+    padding-top: 2%;
+    font-size: 1.5rem;
+    
+
 }
-.sconto-50{
+
+.sconto-50 {
     font-size: 1rem;
     width: 15%;
     height: 4%;
     background-color: red;
     color: white;
     position: relative;
-    bottom: 20%; 
+    bottom: 20%;
 }
-.sconto-30{
+
+.sconto-30 {
     font-size: 1rem;
     width: 15%;
     height: 4%;
     background-color: red;
     color: white;
     position: relative;
-    bottom: 20%; 
+    bottom: 20%;
 }
-.sost{
+
+.sost {
     font-size: 1rem;
     text-align: center;
     width: 35%;
@@ -77,58 +111,66 @@ span{
     background-color: green;
     color: white;
     position: relative;
-    bottom: 24%; 
-    left:17%;
+    bottom: 24%;
+    left: 17%;
 }
-.brand{
+
+.brand {
     font-size: 0.8rem;
     color: grey;
     position: relative;
-    bottom: 10%; 
-    left:1%;
+    bottom: 10%;
+    left: 1%;
 }
-.brand-1{
+
+.brand-1 {
     font-size: 0.8rem;
     color: grey;
     position: relative;
-    bottom: 6%; 
-    left:1%;
+    bottom: 6%;
+    left: 1%;
 }
-.description{
+
+.description {
     position: relative;
-    bottom: 10%; 
-    left:1%;
+    bottom: 10%;
+    left: 1%;
 }
-.description-1{
+
+.description-1 {
     position: relative;
-    bottom: 6%; 
-    left:1%;
+    bottom: 6%;
+    left: 1%;
 }
-.costo{
+
+.costo {
     position: relative;
-    bottom: 6%; 
-    left:-2%;
+    bottom: 6%;
+    left: -2%;
     color: red;
     font-size: 0.8rem;
 }
-.costo-1{
+
+.costo-1 {
     position: relative;
-    bottom: 6%; 
+    bottom: 6%;
     font-size: 0.8rem;
-    left:-3%;
-    text-decoration:line-through;
+    left: -3%;
+    text-decoration: line-through;
 }
-.costo-2{
+
+.costo-2 {
     position: relative;
-    bottom: 10%; 
-    left:-2%;
+    bottom: 10%;
+    left: -2%;
     color: red;
     font-size: 0.8rem;
 }
-.costo-3{
+
+.costo-3 {
     position: relative;
-    bottom: 10%; 
+    bottom: 10%;
     font-size: 0.8rem;
-    left:-3%;
-    text-decoration:line-through;
+    left: -3%;
+    text-decoration: line-through;
 }
