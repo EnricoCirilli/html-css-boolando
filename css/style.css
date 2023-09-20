@@ -42,7 +42,7 @@ img{
     height: 20px;
     background-color: white;
     position: relative;
-    bottom: 70%;
+    bottom: 76%;
     left: 90%;
 }
 .heart:hover{
@@ -114,6 +114,20 @@ span{
 .costo-1{
     position: relative;
     bottom: 6%; 
+    font-size: 0.8rem;
+    left:-3%;
+    text-decoration:line-through;
+}
+.costo-2{
+    position: relative;
+    bottom: 10%; 
+    left:-2%;
+    color: red;
+    font-size: 0.8rem;
+}
+.costo-3{
+    position: relative;
+    bottom: 10%; 
     font-size: 0.8rem;
     left:-3%;
     text-decoration:line-through;
