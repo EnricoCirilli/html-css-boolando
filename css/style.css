@@ -17,7 +17,7 @@
     margin-bottom: 20px;
     
 }
-ul li {
+.list-navbar li  {
     display: inline-block;
     color: white;
     font-size: 1.5rem; 
@@ -180,3 +180,55 @@ span {
     left: -3%;
     text-decoration: line-through;
 }
+
+/* footer */
+.footer{
+   width: 100%;
+   border: 3px solid red;
+   background-color: black;
+   color: white;
+   display: flex;
+   justify-content:space-around;
+   padding: 15px;
+}
+.footer-list {
+    display: flex;
+    list-style: none;
+    padding-top: 20px;
+    margin-right: 20px;
+}
+.footer-box1{
+    padding: 10px;
+}
+.fa {
+    padding: 15px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+  
+  .fa-facebook {
+    background: black;
+    color: white;
+  }
+  
+  .fa-twitter {
+    background: black;
+    color: white;
+  }
+  
+  .fa-google {
+    background: black;
+    color: white;
+  }
+  
+  .fa-linkedin {
+    background: black;
+    color: white;
+  }
