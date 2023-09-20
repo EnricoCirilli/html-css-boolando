@@ -8,17 +8,23 @@
 
 /* nav bar */
 .nav-bar {
-    background-color: orange;
+    background-color: rgb(245, 103, 52);
     width: 100%;
     display: flex;
     justify-content: space-around;
     align-items: center;
     padding: 10px;
+    margin-bottom: 20px;
     
 }
-ul li{
+ul li {
     display: inline-block;
-    
+    color: white;
+    font-size: 1.5rem; 
+}
+a{
+    text-decoration: none;
+    color: white;
 }
 .boolean-logo{
     width: 13%;
