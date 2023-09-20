@@ -7,5 +7,25 @@
 }
 
 .row{
+    background-color: aquamarine;
+    min-height: 1000px;
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
 
+
+}
+.col{
+    /* debug */
+    border: 2px red solid;
+    width: calc(100% / 3);
+    height: 900px;
+    
+}
+.card-1{
+    background-image: url(../img/1.webp);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
