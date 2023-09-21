@@ -40,7 +40,7 @@ a{
     flex-wrap: wrap;
 }
 
-/* sett up general of all columns */
+/* setting up general of all columns */
 .col {
     width: calc(100% / 3);
     padding: 10px;
@@ -88,6 +88,8 @@ span {
     
 
 }
+
+/* stting up others divs discount, brand name, description product and cost */
 
 .sconto-50 {
     font-size: 1rem;
